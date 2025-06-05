@@ -71,7 +71,7 @@ class ServiceResource extends Resource
                 Tables\Columns\TextColumn::make('nama')
                     ->label('Nama Layanan')
                     ->searchable(),
-                Tables\Columns\TextColumn::make('jenis')
+                Tables\Columns\TextColumn::make('ketJenis')
                     ->label('Jenis Layanan')
                     ->searchable(),
                 Tables\Columns\TextColumn::make('deskripsi')

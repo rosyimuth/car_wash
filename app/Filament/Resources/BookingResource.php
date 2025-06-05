@@ -50,13 +50,13 @@ class BookingResource extends Resource
     {
         return $table
             ->columns([
-                Tables\Columns\TextColumn::make('users.name')
+                Tables\Columns\TextColumn::make('user.name')
                     ->label('Nama Customer')
                     ->sortable(),
-                Tables\Columns\TextColumn::make('schedules.tanggal')
+                Tables\Columns\TextColumn::make('schedule.tanggal')
                     ->label('Jadwal')
                     ->sortable(),
-                Tables\Columns\TextColumn::make('services.nama')
+                Tables\Columns\TextColumn::make('service.nama')
                     ->label('Layanan')
                     ->sortable(),
                 Tables\Columns\TextColumn::make('plat_nomor')
