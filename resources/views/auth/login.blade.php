@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>Login - WISH WASH</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="icon" href="https://www.pngall.com/wp-content/uploads/5/Car-Wash-PNG-File-Download-Free.png">
 </head>
@@ -17,7 +17,7 @@
             <a href="{{ url('/') }}">
                 <img src="https://www.pngall.com/wp-content/uploads/5/Car-Wash-PNG-File-Download-Free.png" alt="Wish Wash Logo" class="h-10 mb-4">
             </a>    
-            <h2 class="text-xl font-bold">Welcome Back!</h2>
+            <h2 class="text-xl font-bold">Selamat Datang Kembali!</h2>
             @session('status')
                 <div class="mb-4 font-medium text-sm text-green-600">
                     {{ $value }}
@@ -38,12 +38,12 @@
                 <div class="flex items-center justify-between mt-4">
     <label for="remember_me" class="flex items-center">
         <input id="remember_me" type="checkbox" name="remember">
-        <span class="ms-2 text-sm text-gray-600">{{ __('Remember me') }}</span>
+        <span class="ms-2 text-sm text-gray-600">{{ __('Ingat saya') }}</span>
     </label>
 
     @if (Route::has('password.request'))
         <a class="underline text-sm text-gray-600 hover:text-gray-900 rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" href="{{ route('password.request') }}">
-            {{ __('Forgot your password?') }}
+            {{ __('Lupa password?') }}
         </a>
     @endif
 </div>
@@ -54,7 +54,7 @@
             <button>
             </form>
 
-            <p class="mt-3 text-sm">Belum punya akun? <a href="{{ route('register') }}" class="text-blue-500">Register</a></p>
+            <p class="mt-3 text-sm">Belum punya akun? <a href="{{ route('register') }}" class="text-blue-500">Buat akun</a></p>
         </div>
 
         <!-- Right Section (Image) -->

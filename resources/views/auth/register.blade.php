@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Register</title>
+    <title>Register - WISH WASH</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="icon" href="https://www.pngall.com/wp-content/uploads/5/Car-Wash-PNG-File-Download-Free.png">
 </head>
@@ -19,10 +19,10 @@
 
         <!-- Right Section (Form) -->
         <div class="w-1/2 bg-white text-black flex flex-col justify-center items-center p-6">
-            <a href="{{ url('/') }}">
+            <!-- <a href="{{ url('/') }}">
                 <img src="https://www.pngall.com/wp-content/uploads/5/Car-Wash-PNG-File-Download-Free.png" alt="Wish Wash Logo" class="h-10 mb-4">
-            </a>   
-            <h2 class="text-xl font-bold">Welcome!</h2>
+            </a>    -->
+            <h2 class="text-xl font-bold">Selamat Datang!</h2>
 
             @session('status')
                 <div class="mb-4 font-medium text-sm text-green-600">
@@ -33,7 +33,7 @@
             <form method="POST" action="{{ route('register') }}" class="w-full flex flex-col space-y-3">
                 @csrf
                 <div>
-                    <label for="username" class="block text-sm">Username</label>
+                    <label for="username" class="block text-sm">Nama</label>
                     <input id="username" class="block mt-1 w-full p-2 bg-gray-100 text-sm rounded-md placeholder-gray-500" type="text" name="name" value="{{ old('name') }}" required autocomplete="name" placeholder="Masukkan Nama" />
                 </div>
 
@@ -43,12 +43,12 @@
                 </div>
 
                 <div>
-                    <label for="phone_number" class="block text-sm">Phone Number</label>
+                    <label for="phone_number" class="block text-sm">Nomor Telepon</label>
                     <input id="phone_number" class="block mt-1 w-full p-2 bg-gray-100 text-sm rounded-md placeholder-gray-500" type="tel" name="phone_number" value="{{ old('phone_number') }}" required autocomplete="tel" placeholder="Masukkan Nomor Telepon" />
                 </div>
 
                 <div>
-                    <label for="address" class="block text-sm">Address</label>
+                    <label for="address" class="block text-sm">Alamat</label>
                     <input id="address" class="block mt-1 w-full p-2 bg-gray-100 text-sm rounded-md placeholder-gray-500" type="text" name="address" value="{{ old('address') }}" required autocomplete="street-address" placeholder="Masukkan Alamat" />
                 </div>
 
@@ -58,7 +58,7 @@
                 </div>
 
                 <div class="mt-4">
-                    <label for="password_confirmation" class="block text-sm">Password Confirmation</label>
+                    <label for="password_confirmation" class="block text-sm">Konfirmasi Password</label>
                     <input id="password_confirmation" class="block mt-1 w-full p-2 bg-gray-100 text-sm rounded-md placeholder-gray-500" type="password" name="password_confirmation" required autocomplete="new-password" placeholder="Konfirmasi Password" />
                 </div>
 

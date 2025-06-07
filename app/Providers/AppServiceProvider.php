@@ -2,6 +2,7 @@
 
 namespace App\Providers;
 
+use Carbon\Carbon;
 use Spatie\Permission\Models\Role;
 use Illuminate\Support\Facades\Event;
 use Illuminate\Auth\Events\Registered;
@@ -30,6 +31,8 @@ class AppServiceProvider extends ServiceProvider
 
         // Assign role ke user baru
         $user->assignRole('customer');
+
+        Carbon::setLocale('id');
     });
     }
 }
