@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>WISH WASH - Booking Cuci Mobil</title>
+    <title>ShineUp - Booking Cuci Mobil</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- SwiperJS CSS -->
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
@@ -20,7 +20,7 @@
     <!-- Navbar -->
     <header class="w-full py-4 px-6 lg:px-12 flex justify-between items-center shadow-sm bg-white/80 backdrop-blur-md sticky top-0 z-50 border-b border-gray-200">
         <!-- Logo -->
-        <div class="text-xl font-bold text-blue-600">WISH WASH</div>
+        <div class="text-xl font-bold text-blue-600">ShineUp</div>
 
         <!-- Navigasi Utama -->
         <nav class="hidden md:flex items-center space-x-6 text-sm text-gray-700">
@@ -65,7 +65,7 @@
     <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
         <div>
             <h2 class="text-4xl md:text-5xl font-bold text-gray-800 mb-6">Solusi Mudah Booking Cuci Mobil</h2>
-            <p class="text-lg text-gray-600 mb-6">Pesan layanan cuci mobil secara online dengan cepat dan praktis menggunakan <strong>WISH WASH</strong>, layanan terpercaya untuk kendaraan Anda.</p>
+            <p class="text-lg text-gray-600 mb-6">Pesan layanan cuci mobil secara online dengan cepat dan praktis menggunakan <strong>ShineUp</strong>, layanan terpercaya untuk kendaraan Anda.</p>
             <a href="{{ route('login') }}" class="inline-block bg-blue-600 text-white px-6 py-3 rounded-md shadow hover:bg-blue-700 transition">Booking Sekarang</a>
         </div>
         <div class="hidden md:block">
@@ -85,10 +85,10 @@
         <!-- Konten Teks -->
         <div class="order-1 md:order-2">
             <h3 class="text-3xl md:text-4xl font-bold mb-6 text-gray-800">
-                Apa Itu <span class="text-blue-600">WISH WASH</span>?
+                Apa Itu <span class="text-blue-600">ShineUp</span>?
             </h3>
             <p class="text-lg text-gray-600 mb-4 leading-relaxed">
-                <strong>WISH WASH</strong> adalah platform booking layanan cuci mobil online yang memudahkan Anda mendapatkan layanan berkualitas dengan jadwal yang fleksibel dan harga terjangkau.
+                <strong>ShineUp</strong> adalah platform booking layanan cuci mobil online yang memudahkan Anda mendapatkan layanan berkualitas dengan jadwal yang fleksibel dan harga terjangkau.
             </p>
             <ul class="list-disc list-inside text-gray-700 mb-6">
                 <li>Pilih paket cuci mobil sesuai kebutuhan Anda</li>
@@ -105,7 +105,7 @@
     <!-- Fitur -->
     <section id="fitur" class="py-20 bg-white">
         <div class="max-w-7xl mx-auto px-6 text-center">
-            <h3 class="text-3xl font-bold mb-12 text-gray-800">Fitur Unggulan WISH WASH</h3>
+            <h3 class="text-3xl font-bold mb-12 text-gray-800">Fitur Unggulan ShineUp</h3>
             <div class="grid md:grid-cols-3 gap-12">
                 <div class="p-6 border rounded-lg hover:shadow-lg transition">
                     <img src="https://img.icons8.com/fluency/96/easy.png" class="mx-auto mb-4" />
@@ -130,7 +130,7 @@
     <!-- Mengapa Kami -->
     <section id="mengapa" class="bg-blue-50 py-20">
         <div class="max-w-6xl mx-auto px-6 text-center">
-            <h3 class="text-3xl font-bold mb-10 text-gray-800">Mengapa Memilih WISH WASH?</h3>
+            <h3 class="text-3xl font-bold mb-10 text-gray-800">Mengapa Memilih ShineUp?</h3>
             <div class="grid md:grid-cols-4 gap-8 text-left">
                 <div>
                     <h4 class="text-xl font-semibold mb-2 text-blue-700">✅ Praktis</h4>
@@ -156,7 +156,7 @@
 <!-- Cara Kerja -->
 <section id="cara" class="py-20 bg-white">
     <div class="max-w-7xl mx-auto px-6">
-        <h3 class="text-3xl font-bold text-center mb-12 text-gray-800">Bagaimana Cara Kerja WISH WASH?</h3>
+        <h3 class="text-3xl font-bold text-center mb-12 text-gray-800">Bagaimana Cara Kerja ShineUp?</h3>
         <div class="grid md:grid-cols-4 gap-8 text-center">
             <div>
                 <div class="text-blue-600 text-4xl font-bold mb-2">1</div>
@@ -263,7 +263,7 @@
     <!-- Footer -->
     <footer class="bg-gray-900 text-white py-8">
         <div class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center">
-            <p>&copy; {{ date('Y') }} WISH WASH. All rights reserved.</p>
+            <p>&copy; {{ date('Y') }} ShineUp. All rights reserved.</p>
             <div class="space-x-4 mt-4 md:mt-0">
                 <a href="#" class="hover:underline">Kebijakan Privasi</a>
                 <a href="#" class="hover:underline">Syarat & Ketentuan</a>

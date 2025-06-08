@@ -86,7 +86,7 @@
     {{-- Footer --}}
     <footer class="shadow-xl text-gray-500 py-5">
         <div class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center">
-            <p>&copy; {{ date('Y') }} WISH WASH. All rights reserved.</p>
+            <p>&copy; {{ date('Y') }} ShineUp. All rights reserved.</p>
         </div>
     </footer>
 </div>

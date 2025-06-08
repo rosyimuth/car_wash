@@ -81,9 +81,9 @@
                             <label for="perPage" class="text-sm font-medium">Tampilkan</label>
                             <select id="perPage" wire:model.live="perPage"
                                 class="border border-gray-300 rounded-md px-7 py-2 text-sm focus:ring focus:border-blue-300 min-w-[110px]">
-                                    <option value="4">4 baris</option>
-                                    <option value="8">8 baris</option>
-                                    <option value="12">12 baris</option>
+                                    <option value="4">4 layanan</option>
+                                    <option value="8">8 layanan</option>
+                                    <option value="12">12 layanan</option>
                             </select>
                         </div>
 
@@ -100,7 +100,7 @@
     {{-- Footer --}}
     <footer class="shadow-xl text-gray-500 py-5">
         <div class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center">
-            <p>&copy; {{ date('Y') }} WISH WASH. All rights reserved.</p>
+            <p>&copy; {{ date('Y') }} ShineUp. All rights reserved.</p>
         </div>
     </footer>
 </div>

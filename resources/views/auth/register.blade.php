@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Register - WISH WASH</title>
+    <title>Register - ShineUp</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="icon" href="https://www.pngall.com/wp-content/uploads/5/Car-Wash-PNG-File-Download-Free.png">
 </head>
@@ -20,7 +20,7 @@
         <!-- Right Section (Form) -->
         <div class="w-1/2 bg-white text-black flex flex-col justify-center items-center p-6">
             <!-- <a href="{{ url('/') }}">
-                <img src="https://www.pngall.com/wp-content/uploads/5/Car-Wash-PNG-File-Download-Free.png" alt="Wish Wash Logo" class="h-10 mb-4">
+                <img src="https://www.pngall.com/wp-content/uploads/5/Car-Wash-PNG-File-Download-Free.png" alt="ShineUp Logo" class="h-10 mb-4">
             </a>    -->
             <h2 class="text-xl font-bold">Selamat Datang!</h2>
 
