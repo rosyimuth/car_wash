@@ -6,6 +6,7 @@ use App\Livewire\Settings\Profile;
 use Illuminate\Support\Facades\Route;
 use App\Livewire\Layanan\Index as Layanan;
 use App\Livewire\Jadwal\Index as Jadwal;
+use App\Livewire\Booking\Index as Booking;
 
 Route::get('/', function () {
     return view('welcome');
@@ -20,6 +21,7 @@ Route::middleware([
         return view('dashboard');
     })->name('dashboard');
 
+    Route::get('/booking', Booking::class)->name('booking.index');
     Route::get('/layanan', Layanan::class)->name('layanan.index');
     Route::get('/jadwal', Jadwal::class)->name('jadwal.index');
 

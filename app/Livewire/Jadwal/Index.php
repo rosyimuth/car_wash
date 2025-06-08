@@ -13,6 +13,16 @@ class Index extends Component
 
     public $perPage = 5;
     public $hariFilter = '';
+    
+    public function updatingSearch()
+    {
+        $this->resetPage();
+    }
+
+    public function updatingJenisFilter()
+    {
+        $this->resetPage();
+    }
 
     public function getHariFilterEnglishProperty()
     {
